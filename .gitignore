@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==========================================
+# Project-Specific Clinical Data & Outputs
+# ==========================================
+
+# Ignore the raw dataset files
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Ignore the generated visual validation charts
+plots/*.png
+plots/*.jpg
+plots/*.pdf
