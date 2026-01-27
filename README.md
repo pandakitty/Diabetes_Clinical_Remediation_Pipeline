@@ -24,3 +24,8 @@ This project develops an automated Python-based pipeline for the audit and remed
 *  **Data Scientist (Kirsten):** **Scikit-Learn (IterativeImputer)** for executing **MICE/KNN** remediation logic and **Regex** for ICD-9 normalization.
 *  **Data Visualization (Mugtaba):** **Matplotlib** and **Seaborn** for generating **Comparative Distribution Plots** and **KDE** validation.
 *  **Project Management (Ashley):** **GitHub** for version control, branch protection, and enforcing the **Peer Review** process. 
+
+### 📂 Quick Navigation
+* **[Clinical Data Quality Dimensions](./documentation/quality_dimensions.md)**: Definitions for Completeness, Validity, and Consistency.
+* **[Remediation Methodology](./references.md)**: Justification for MICE/KNN vs. Listwise Deletion.
+* **[Setup Requirements](./requirements.txt)**: Environment dependencies.
