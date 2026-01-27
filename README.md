@@ -1,3 +1,8 @@
+![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Data Quality](https://img.shields.io/badge/DQI%20Target-25%25%20Improvement-orange)
+![Status](https://img.shields.io/badge/Project%20Status-Staged-brightgreen)
+
 # Multi-Dimensional Risk Modeling and Clinical Data Remediation
 ## Analysis of the Diabetes 130-US Hospitals (1999-2008) Dataset.
 ### Project Abstract
