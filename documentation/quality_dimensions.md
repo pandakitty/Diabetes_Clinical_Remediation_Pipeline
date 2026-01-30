@@ -19,4 +19,4 @@ This project utilizes a Data Quality Index (DQI) to measure the success of the r
 * **Validation Goal**: Ensure all records fall within the expected clinical range of **1 to 132** lab procedures. Any outliers outside this range will be flagged during the **Clinical Audit** phase.
 
 **Quick Navigation**
-* [View Data Quality Framework](./quality_dimensions.md)
+* [View Data Quality Framework](https://pandakitty.github.io/Diabetes_Clinical_Remediation_Pipeline/documentation/quality_dimensions.html)
