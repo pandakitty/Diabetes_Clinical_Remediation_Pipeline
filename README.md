@@ -17,7 +17,7 @@ This project develops an automated Python-based pipeline for the audit and remed
 * **RQ5 (Ashley - Project Manager):** Which specific quality dimension shows the most significant **delta**?
 
  ---
-**Legend: Research Terminology – Delta:** The measurable change or improvement between states.
+**Legend: Research Terminology – Delta:** The measurable change or improvement between the raw and remediated states | **Statistical Bias:** Systemic error introduced by improper handling of missingness | **Listwise Deletion:** The practice of dropping entire rows with missing data | **High-Fidelity Asset:** Data that has been verified for integrity, accuracy, and consistency.
 
 ### Technical Stack & Tooling
 
@@ -25,15 +25,6 @@ This project develops an automated Python-based pipeline for the audit and remed
 * **Data Science**: Scikit-Learn
 * **Data Visualization**: Matplotlib and Seaborn
 * **Project Management**: GitHub Version Control
-
-### 📂 Quick Navigation
-* **[Clinical Data Quality Dimensions](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md)**: Definitions for Completeness, Validity, and Consistency.
-* **[Remediation Methodology](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/references.md)**: Justification for MICE/KNN vs. Listwise Deletion.
-* **[Setup Requirements](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/requirements.txt)**: Environment dependencies.
-
----
----
-**Legend: Research Terminology – Delta:** The measurable change or improvement between the raw and remediated states | **Statistical Bias:** Systemic error introduced by improper handling of missingness | **Listwise Deletion:** The practice of dropping entire rows with missing data | **High-Fidelity Asset:** Data that has been verified for integrity, accuracy, and consistency.
 
 ## Results & Impact
 This table tracks the performance of the pipeline against the project's success metrics.
@@ -47,5 +38,7 @@ This table tracks the performance of the pipeline against the project's success 
 
 ### 📂 Quick Navigation
 * **[Clinical Data Quality Dimensions](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md)**: Definitions for Completeness, Validity, and Consistency.
+* **[Clinical Audit Report](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/audit_report.md)**: Detailed summary of remediation logic and verification.
+* **[Clinical Data Dictionary](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/data_dictionary.md)**: Feature descriptions and clinical ranges.
 * **[Remediation Methodology](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/references.md)**: Justification for MICE/KNN vs. Listwise Deletion.
 * **[Setup Requirements](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/requirements.txt)**: Environment dependencies.
