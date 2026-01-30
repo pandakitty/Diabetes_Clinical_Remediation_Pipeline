@@ -1,0 +1,14 @@
+# Clinical Data Dictionary: Diabetes 130-US Hospitals
+
+| Feature Name | Clinical Description | Data Type | Value Range / Examples |
+| :--- | :--- | :--- | :--- |
+| **encounter_id** | Unique identifier for the hospital stay | Integer | 12500 - 100000+ |
+| **diag_1** | Primary diagnosis (ICD-9 code) | String | 428 (Heart Failure), 250 (Diabetes) |
+| **num_lab_procedures** | Number of lab tests performed | Integer | 1 - 132 |
+| **A1Cresult** | Results of the A1C test | String | >8, >7, Normal, None |
+| **change** | Indicates if medication was changed | Boolean | Ch, No |
+| **readmitted** | Days until readmission (Target) | String | <30, >30, NO |
+
+### Remediation Notes
+* **Missingness Handling**: Features with more than 40% missingness (e.g., `weight`, `payer_code`) were prioritized for clinical audit.
+* **Normalization**: ICD-9 codes were grouped into 17 distinct clinical categories to reduce dimensionality.
