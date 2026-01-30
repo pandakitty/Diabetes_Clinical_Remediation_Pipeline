@@ -36,6 +36,9 @@ This table tracks the performance of the pipeline against the project's success 
 | Validity | 85% | 99% | +16% |
 | **Composite DQI** | **52.6%** | **97.3%** | **+85%** |
 
+## Conclusion
+The automated remediation pipeline successfully achieved a significant improvement in data integrity, moving the Composite DQI from 52.6% to 97.3%. By utilizing MICE/KNN imputation to handle clinical missingness and Regex for ICD-9 normalization, the team reduced statistical bias and transformed the raw UCI dataset into a high-fidelity asset. Visual analytics (provided in the plots folder) confirm that the remediated distributions maintain clinical relevance, making the dataset suitable for advanced predictive modeling.
+
 ### 📂 Quick Navigation
 * **[Clinical Data Quality Dimensions](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md)**: Definitions for Completeness, Validity, and Consistency.
 * **[Clinical Audit Report](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/audit_report.md)**: Detailed summary of remediation logic and verification.
