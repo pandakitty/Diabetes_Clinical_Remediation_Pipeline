@@ -27,6 +27,6 @@ This project develops an automated Python-based pipeline for the audit and remed
 * **Project Management**: GitHub Version Control
 
 ### 📂 Quick Navigation
-* **[Clinical Data Quality Dimensions](https://pandakitty.github.io/Diabetes_Clinical_Remediation_Pipeline/documentation/quality_dimensions.html)**: Definitions for Completeness, Validity, and Consistency.
-* **[Remediation Methodology](https://pandakitty.github.io/Diabetes_Clinical_Remediation_Pipeline/documentation/references.html)**: Justification for MICE/KNN vs. Listwise Deletion.
+* **[Clinical Data Quality Dimensions](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md)**: Definitions for Completeness, Validity, and Consistency.
+* **[Remediation Methodology](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/references.md)**: Justification for MICE/KNN vs. Listwise Deletion.
 * **[Setup Requirements](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/requirements.txt)**: Environment dependencies.
